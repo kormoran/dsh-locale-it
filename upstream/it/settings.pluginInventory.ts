@@ -1,0 +1,47 @@
+/**
+ * Italian dictionary for the "settings.pluginInventory" namespace, owned by
+ * @deepseek-ai/dsh-client-ui-settings-plugin-inventory.
+ *
+ * 37 keys. The shipped dictionaries are typed against the Chinese
+ * key set, so this module must stay complete for the namespace: TypeScript
+ * checks every shipped language against it.
+ */
+export const it = {
+	"tab": "Elenco dei plugin",
+	"loading": "Lettura dei plugin…",
+	"clientSyncing": "Sincronizzazione dei plugin in questa pagina…",
+	"clientSyncFailed": "Alcuni plugin non sono stati sincronizzati in questa pagina. L'attivazione lato host è invariata.",
+	"clientSyncRetry": "Riprova questa pagina",
+	"error": "I plugin sono temporaneamente non disponibili.",
+	"metadataError": "Errore nei metadati del pacchetto: {error}",
+	"retry": "Riprova",
+	"search": "Cerca plugin",
+	"empty": "Nessun plugin disponibile.",
+	"emptySearch": "Nessun plugin corrispondente.",
+	"presetTitle": "Plugin della sessione",
+	"presetSubtitle": "Composti per sessione dai preset degli agenti",
+	"switcherLabel": "Scegli il preset dell'agente da ispezionare",
+	"presetOptionDefault": "{name} (predefinito)",
+	"presetOptionBroken": "{name} (caricamento non riuscito)",
+	"globalTitle": "Plugin globali",
+	"globalSubtitle": "Condivisi dal sistema e da ogni sessione",
+	"presetProvidedDetail": "Disattivato globalmente; i preset degli agenti lo forniscono per sessione",
+	"enabledIn": "Attivato in",
+	"matchesInOtherPresets": "altre {count} corrispondenze in altri preset: ",
+	"enabledTag": "Attivato",
+	"disabledTag": "Disattivato",
+	"conditionalTag": "Condizionale",
+	"presetEnabledTag": "Tramite i preset",
+	"failedTag": "Non riuscito",
+	"moduleLabel": "Modulo",
+	"fromPreset": "Da",
+	"condition": "Disattivato quando",
+	"configuration": "Configurazione",
+	"runtime": "Stato",
+	"unobserved": "Non in esecuzione",
+	"pending": "In attesa delle dipendenze",
+	"loadingPhase": "Caricamento",
+	"active": "In esecuzione",
+	"failed": "Avvio non riuscito",
+	"unloading": "Scaricamento",
+} as const

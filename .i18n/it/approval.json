@@ -1,0 +1,9 @@
+{
+	"waiting": "In attesa di consenso",
+	"detail.aria": "Dettagli del consenso",
+	"escalation": "Il tool {toolName} richiede l’esecuzione con privilegi",
+	"reject": "Rifiuta",
+	"allow": "Autorizza",
+	"allowOnce": "Autorizza una volta",
+	"allowAlways": "Autorizza sempre"
+}

@@ -1,0 +1,18 @@
+{
+  "trigger.label": "Attività automatiche",
+  "list.loading": "Caricamento delle attività automatiche…",
+  "list.error": "Impossibile caricare le attività automatiche.",
+  "list.retry": "Riprova",
+  "delete.action": "Elimina",
+  "delete.pending": "Eliminazione…",
+  "delete.label": "Elimina l'attività automatica: {title}",
+  "list.open": "Apri i dettagli dell'attività automatica: {title}",
+  "trigger.one": "{count} attività automatica",
+  "trigger.other": "{count} attività automatiche",
+  "list.aria": "Attività automatiche attive",
+  "list.nextRun": "Prossima esecuzione",
+  "frequency.once": "Una volta",
+  "frequency.every": "Ogni {value} {unit}",
+  "mark.aria": "{count} attività automatiche",
+  "hover.more": "altre {count}"
+}

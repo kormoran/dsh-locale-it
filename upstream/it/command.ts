@@ -1,0 +1,32 @@
+/**
+ * Italian dictionary for the "command" namespace, owned by
+ * @deepseek-ai/dsh-client-ui-commands.
+ *
+ * 22 keys. The shipped dictionaries are typed against the Chinese
+ * key set, so this module must stay complete for the namespace: TypeScript
+ * checks every shipped language against it.
+ */
+export const it = {
+	"section.add": "Aggiungi",
+	"section.commands": "Comandi",
+	"label.goal": "Obiettivo",
+	"label.plan": "Piano",
+	"label.feedback": "Feedback",
+	"label.compact": "Compatta",
+	"label.permission": "Permessi",
+	"label.export": "Esporta",
+	"description.goal": "Imposta o consulta l'obiettivo di un'attività di lunga durata",
+	"description.plan": "Entra o esci dalla modalità piano",
+	"description.feedback": "Registra un feedback su questa sessione",
+	"description.compact": "Compatta la cronologia più vecchia della conversazione",
+	"description.permission": "Cambia il preset dei permessi (modalità sandbox + politica dei consensi)",
+	"description.export": "Scarica il log di questa sessione come archivio ZIP",
+	"search.placeholder": "Cerca…",
+	"search.aria": "Filtra le opzioni",
+	"status.loading": "Caricamento delle opzioni…",
+	"status.applying": "Applicazione…",
+	"status.empty": "Nessuna opzione",
+	"overlay.aria": "Opzioni di /{command}",
+	"listbox.aria": "Corrispondenze per /{command}",
+	"notice.attachmentsUnsupported": "/{command} non accetta allegati; rimuovili prima",
+} as const

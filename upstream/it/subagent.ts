@@ -1,0 +1,52 @@
+/**
+ * Italian dictionary for the "subagent" namespace, owned by
+ * @deepseek-ai/dsh-client-ui-subagent.
+ *
+ * 42 keys. The shipped dictionaries are typed against the Chinese
+ * key set, so this module must stay complete for the namespace: TypeScript
+ * checks every shipped language against it.
+ */
+export const it = {
+	"duration.seconds": "{seconds}s",
+	"duration.minutes": "{minutes}m {seconds}s",
+	"duration.hours": "{hours}h {minutes}m {seconds}s",
+	"duration.days": "{days}g",
+	"duration.daysHours": "{days}g {hours}h",
+	"duration.months": "~{months}mes",
+	"duration.monthsDays": "~{months}mes {days}g",
+	"duration.years": "~{years}a",
+	"duration.yearsMonths": "~{years}a {months}mes",
+	"duration.exactDays": "{days}g {hours}h {minutes}m {seconds}s",
+	"duration.exactTitle": "Durata attiva totale: {duration}",
+	"tokens.thousand": "{value}K",
+	"tokens.million": "{value}M",
+	"tokens.total": "{value} tok",
+	"loading.label": "Caricamento dei subagenti…",
+	"load.error": "Impossibile caricare i subagenti",
+	"catalog.migrationRequired": "Migrazione necessaria",
+	"retry": "Riprova",
+	"mode.external": "Attività esterna",
+	"mode.oneShot": "una tantum",
+	"mode.continuable": "continuabile",
+	"mode.unknown": "modalità sconosciuta",
+	"readonly.unknown.body": "Leggi la sessione figlia per capire se può essere continuata.",
+	"activity.running": "in esecuzione",
+	"activity.completed": "completata",
+	"activity.inactive": "non in esecuzione",
+	"branch.collapse": "Comprimi i discendenti di {label}",
+	"branch.expand": "Espandi i discendenti di {label}",
+	"count.total.one": "{count} subagente",
+	"count.total.other": "{count} subagenti",
+	"count.running.one": "{count} subagente in esecuzione",
+	"count.running.other": "{count} subagenti in esecuzione",
+	"switcher.aria": "Cambia subagente: {title}",
+	"tree.aria": "Sessioni dei subagenti",
+	"open.sidebar": "Apri nella barra laterale",
+	"open.floatWindow": "Apri in un pannello mobile",
+	"open.sidebar.aria": "Apri {label} nella barra laterale",
+	"sidebar.chat": "Chat",
+	"readonly.oneShot.title": "Registro di un subagente una tantum",
+	"readonly.title": "Questo subagente è in sola lettura per ora",
+	"readonly.oneShot.body": "Le attività una tantum non accettano messaggi successivi; qui puoi rivedere l'intero registro di esecuzione.",
+	"readonly.body": "La sessione padre è offline; riaprila per continuare a inviare messaggi.",
+} as const

@@ -1,0 +1,45 @@
+/**
+ * Italian dictionary for the "settings.subagent" namespace, owned by
+ * @deepseek-ai/dsh-client-ui-settings-subagent.
+ *
+ * 35 keys. The shipped dictionaries are typed against the Chinese
+ * key set, so this module must stay complete for the namespace: TypeScript
+ * checks every shipped language against it.
+ */
+export const it = {
+	"overridden": "Sovrascritto",
+	"reset": "Ripristina il valore predefinito",
+	"readOnly": "Questa installazione salva le impostazioni in sola lettura.",
+	"unavailable": "Questo plugin non è caricato, quindi non può essere configurato in questo momento.",
+	"save": "Salva",
+	"saving": "Salvataggio…",
+	"saveFailed": "L'installazione non ha accettato questi valori; sono stati lasciati perché tu li corregga.",
+	"subagentTitle": "Subagenti",
+	"subagentDescription": "Imposta profondità di ricorsione, numero e modelli dei subagenti.",
+	"subagentLimitsTitle": "Limiti",
+	"subagentMaxDepth": "Profondità di ricorsione massima",
+	"subagentDepthHelpLabel": "Informazioni sulla profondità di ricorsione massima",
+	"subagentDepthHelp": "Limita quanti livelli di subagenti un agente può creare.",
+	"subagentDepthZero": "Disattiva i subagenti",
+	"subagentDepthOne": "Solo l'agente principale può creare subagenti",
+	"subagentDepthOverride": "Se un tool definisce una propria profondità di ricorsione massima, ha la precedenza quella.",
+	"subagentMaxActive": "Limite di parallelismo dei subagenti",
+	"subagentCapacityHelpLabel": "Informazioni sul limite di parallelismo dei subagenti",
+	"subagentCapacityHelp": "Subagenti attivi totali sotto lo stesso agente principale, su tutti i livelli di ricorsione. L'agente principale è escluso. Le nuove richieste di avvio vengono rifiutate al raggiungimento del limite.",
+	"subagentDepthInvalid": "Inserisci un numero intero pari o superiore a 0.",
+	"subagentCapacityInvalid": "Inserisci un numero intero pari o superiore a 1.",
+	"subagentModelSelectionTitle": "Selezione del modello",
+	"subagentModelSelectionToggle": "Consenti agli agenti di scegliere i modelli per i subagenti",
+	"subagentModelSelectionChoose": "Se attivo, gli agenti possono scegliere provider, modello e livello di ragionamento per ogni subagente tra i modelli autorizzati qui sotto. Vale solo per le nuove sessioni.",
+	"subagentModelSelectionAllowed": "Modelli che gli agenti possono scegliere",
+	"subagentModelSelectionLoading": "Caricamento dei modelli…",
+	"subagentModelSelectionLoadFailed": "Impossibile caricare i modelli.",
+	"subagentModelSelectionRetry": "Riprova",
+	"subagentModelSelectionPartial": "Alcuni provider di modelli non sono stati caricati; le scelte salvate restano rimovibili.",
+	"subagentModelSelectionUnavailable": "Attualmente non disponibile",
+	"subagentModelSelectionUnavailableGroup": "Salvato ma attualmente non disponibile",
+	"subagentModelSelectionEmpty": "Nessun provider di modelli pubblicizza attualmente un modello.",
+	"subagentModelSelectionRequired": "Seleziona almeno un modello prima di salvare.",
+	"subagentModelSelectionConflict": "Le impostazioni sono cambiate altrove. Scarta la bozza e riprova.",
+	"subagentModelSelectionOff": "I subagenti usano i valori predefiniti configurati o ereditano il modello dell'agente padre. Le scelte di modello salvate vengono conservate.",
+} as const

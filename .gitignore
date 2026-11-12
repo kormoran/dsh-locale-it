@@ -1,0 +1,31 @@
+# Generati: si ricreano con `node tools/pack-publish.mjs`.
+dist/
+**/*.tgz
+
+# Clone parziale del repository upstream, usato solo per verifiche.
+.upstream-repo/
+
+# Cache npm locale (usata quando il sandbox blocca quella di sistema).
+.i18n/npmcache/
+
+# Log e output di lavoro della pipeline.
+.i18n/*.log
+.i18n/*.log.*
+.i18n/*.out
+.i18n/*.err
+.i18n/*.txt
+.i18n/*.json.bak
+drift-report.md
+
+# Restano versionati: .i18n/it/*.json, .i18n/strings.json, manifest.json.
+
+# Sistema
+node_modules/
+.DS_Store
+Thumbs.db
+
+# Script una tantum e appunti di lavorazione (archiviati, non pubblicati).
+.i18n/archive/
+.i18n/*.log
+.i18n/*.err
+.i18n/*.out

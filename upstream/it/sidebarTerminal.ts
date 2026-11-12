@@ -1,0 +1,38 @@
+/**
+ * Italian dictionary for the "sidebarTerminal" namespace, owned by
+ * @deepseek-ai/dsh-client-ui-sidebar-terminal.
+ *
+ * 28 keys. The shipped dictionaries are typed against the Chinese
+ * key set, so this module must stay complete for the namespace: TypeScript
+ * checks every shipped language against it.
+ */
+export const it = {
+	"shortcut.noSession": "Seleziona prima una sessione",
+	"recoveryFailed": "Recupero del terminale non riuscito: {message}",
+	"retryRecovery": "Riprova il recupero del terminale",
+	"shell": "Scegli la shell",
+	"shellLoading": "Caricamento delle shell…",
+	"shellEmpty": "Nessuna shell disponibile",
+	"description": "Esegui comandi nel workspace della sessione",
+	"title": "Terminale",
+	"new": "Nuovo terminale",
+	"loading": "Lettura dell'ambiente del terminale…",
+	"creating": "Avvio…",
+	"connecting": "Connessione…",
+	"disconnected": "Disconnesso.",
+	"reconnect": "Riconnetti",
+	"readonly": "Questa vista è in sola lettura.",
+	"control": "Prendi il controllo",
+	"closed": "Terminale chiuso.",
+	"exited": "Processo terminato ({code})",
+	"failed": "Errore del terminale: {message}",
+	"rename": "Nome del terminale",
+	"unavailable": "Non disponibile",
+	"retry": "Riprova",
+	"cleanupFailed": "Impossibile chiudere il terminale «{title}»: {message}",
+	"missingTerminal": "Questo terminale non esiste più. Apri un nuovo terminale.",
+	"inputFull": "Il buffer di input è pieno. Riconnetti e riprova.",
+	"attachmentEnded": "La connessione al terminale è terminata. Riconnetti per continuare.",
+	"invalidOutput": "Non è stato possibile ricevere la schermata del terminale. Riconnetti per recuperarla.",
+	"terminalLimit": "È stato raggiunto il limite di terminali. Chiudi i terminali inutilizzati e riprova. Anche i terminali terminati contano ai fini del limite.",
+} as const

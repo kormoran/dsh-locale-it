@@ -1,0 +1,38 @@
+/**
+ * Italian dictionary for the "settings.agentPreset" namespace, owned by
+ * @deepseek-ai/dsh-client-ui-agent-preset.
+ *
+ * 28 keys. The shipped dictionaries are typed against the Chinese
+ * key set, so this module must stay complete for the namespace: TypeScript
+ * checks every shipped language against it.
+ */
+export const it = {
+	"builtInGroup": "Integrati",
+	"customGroup": "Personalizzati",
+	"sectionIntro": "Scegli gli strumenti dell'agente e come lavora. Usa la modalità Standard per le attività di ogni giorno, oppure la modalità Creator per aggiungere capacità a DSH.",
+	"seatHint": "Scegli il preset dell'agente per la tua nuova attività",
+	"headerHint": "Il preset dell'agente scelto all'avvio di questa attività",
+	"nav": "Preset agenti",
+	"setDefault": "Imposta come predefinito per le nuove attività",
+	"view": "Vedi la configurazione",
+	"presetStandardName": "Modalità Standard",
+	"presetStandardDescription": "Lavora con codice, file e informazioni. Adatta alla maggior parte delle attività, con ricerca, modifica, comandi da terminale e altri strumenti disponibili all'occorrenza.",
+	"presetPtcName": "Modalità PTC",
+	"presetPtcDescription": "Include tutte le capacità della modalità Standard. Più adatta alle attività che chiamano i tool a lotti e poi filtrano, organizzano, deduplicano, contano o riassumono i risultati.",
+	"presetMinimalName": "Modalità Minimale",
+	"presetMinimalDescription": "L'agente usa un terminale e la lettura delle immagini, con la compattazione del contesto. Utile per testare e confrontare le sue prestazioni di base.",
+	"presetCordisName": "Modalità Creator",
+	"presetCordisDescription": "Personalizza DSH attraverso la conversazione. Lascia che l'agente scriva plugin che aggiungono funzionalità o UI, oppure combina tool e prompt per creare una modalità tua.",
+	"inUse": "Predefinito per le nuove attività",
+	"noDescription": "Nessuna descrizione.",
+	"brokenBadge": "Caricamento non riuscito",
+	"switchRefused": "Impossibile passare a {name}: {reason}",
+	"standardUnavailable": "La modalità Standard non è disponibile. Ripristinala o scegli un'altra modalità disponibile.",
+	"close": "Chiudi",
+	"creatorDraft": "Lascia che l'agente mi aiuti a creare un preset",
+	"createPlugin": "Lascia che l'agente crei un plugin",
+	"createPluginDescription": "Entra nella modalità Creator e crea il tuo plugin per DSH",
+	"createPluginChecking": "Verifica della disponibilità della modalità Creator",
+	"createPluginUnavailable": "Temporaneamente non disponibile. Riapri questo menu per riprovare",
+	"createPluginMissing": "La modalità Creator non è inclusa in questa configurazione",
+} as const

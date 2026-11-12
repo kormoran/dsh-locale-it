@@ -1,0 +1,25 @@
+/**
+ * Italian dictionary for the "sidebarOffice" namespace, owned by
+ * @deepseek-ai/dsh-client-ui-sidebar-documentpreview.
+ *
+ * 15 keys. The shipped dictionaries are typed against the Chinese
+ * key set, so this module must stay complete for the namespace: TypeScript
+ * checks every shipped language against it.
+ */
+export const it = {
+	"title": "Documento Office",
+	"loading": "Rendering del documento…",
+	"retry": "Riprova",
+	"viewMissingFonts": "Caratteri mancanti: {count}. Clic per vedere.",
+	"missingFontsTitle": "Caratteri mancanti",
+	"missingFontsDescription": "Questi caratteri non sono disponibili per l'anteprima. Testo e impaginazione possono differire dal documento originale.",
+	"missingFontsCount": "Caratteri: {count}",
+	"closeDetails": "Chiudi i dettagli dei caratteri",
+	"unavailable": "Le anteprime Office non sono disponibili. Attiva il servizio di anteprima dei documenti sul computer che esegue DeepSeek Harness.",
+	"invalid": "Impossibile visualizzare questo file Office. Potrebbe essere danneggiato, protetto da password o avere l'estensione sbagliata.",
+	"tooLarge": "Il file Office o il PDF convertito supera il limite di dimensione per l'anteprima. Riduci la dimensione del file o regola la configurazione dell'anteprima.",
+	"failed": "La conversione Office non ha prodotto un PDF utilizzabile. Controlla il file e riprova.",
+	"timeout": "La conversione Office è andata in timeout. Riprova.",
+	"busy": "L'anteprima Office è occupata. Riprova tra poco.",
+	"changed": "Il file è cambiato durante la lettura. Riapri l'anteprima.",
+} as const

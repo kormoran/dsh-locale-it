@@ -1,0 +1,4 @@
+# Inserts the Italian language pack row.
+- insert:
+    - id: locale-it
+      name: '@local/dsh-locale-it'

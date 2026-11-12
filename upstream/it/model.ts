@@ -1,0 +1,33 @@
+/**
+ * Italian dictionary for the "model" namespace, owned by
+ * @deepseek-ai/dsh-client-ui-model-selection.
+ *
+ * 23 keys. The shipped dictionaries are typed against the Chinese
+ * key set, so this module must stay complete for the namespace: TypeScript
+ * checks every shipped language against it.
+ */
+export const it = {
+	"provider.account": "Account DeepSeek",
+	"command.label": "Modello",
+	"command.description": "Seleziona il modello per questa conversazione",
+	"option.loadError": "Caricamento del catalogo non riuscito: {message}",
+	"trigger.fallback": "Seleziona modello",
+	"trigger.loading": "Caricamento modelli…",
+	"trigger.selectAria": "Seleziona modello",
+	"trigger.aria": "Seleziona modello, corrente {model}",
+	"trigger.ariaEffort": "Seleziona modello, corrente {model}, livello di ragionamento {effort}",
+	"menu.aria": "Modello e livello di ragionamento",
+	"menu.model": "Modello",
+	"menu.effort": "Livello",
+	"effort.providerDefault": "Predefinito",
+	"status.loading": "Aggiornamento elenco modelli…",
+	"error.action": "Operazione sul modello non riuscita: {message}",
+	"error.sessionInUse": "Questa sessione è già in uso, forse da un'altra istanza di DSH in esecuzione (come dsh web o l'app desktop). Chiudi le altre istanze di DSH e riprova.",
+	"action.reload": "Ricarica",
+	"warning.groupLoad": "Caricamento di {name} non riuscito: {message}",
+	"search.placeholder": "Cerca modelli…",
+	"search.clear": "Cancella ricerca",
+	"search.empty": "Nessun modello corrispondente.",
+	"empty.models": "Nessun modello disponibile.",
+	"empty.efforts": "Questo modello non offre livelli di ragionamento.",
+} as const

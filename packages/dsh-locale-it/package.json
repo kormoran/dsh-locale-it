@@ -1,0 +1,31 @@
+{
+  "name": "@local/dsh-locale-it",
+  "version": "0.3.0",
+  "description": "Language pack italiano per la Web UI di DSH (3426 stringhe)",
+  "author": "Massimo Soricetti <massimo.soricetti@gmail.com>",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json",
+    "./cordis.patch.yml": "./cordis.patch.yml"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-locale"
+      ]
+    }
+  },
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "cordis.patch.yml"
+  ],
+  "license": "MIT"
+}

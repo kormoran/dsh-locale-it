@@ -1,0 +1,75 @@
+# Copertura per namespace
+
+Generato da `node tools/prepare-upstream.mjs`: non modificare a mano.
+
+| Namespace | Pacchetto | Chiavi | Cartella nel repo |
+|---|---|---|---|
+| `actionCards` | `@deepseek-ai/dsh-client-ui-action-cards` | 14 | packages/experimental/client-ui-action-cards |
+| `agent-team` | `@deepseek-ai/dsh-experimental-client-ui-agent-team` | 25 | packages/experimental/client-ui-agent-team |
+| `approval` | `@deepseek-ai/dsh-client-ui-approval` | 7 | packages/client/ui-approval |
+| `chat` | `@deepseek-ai/dsh-client-ui-chat` | 195 | packages/client/ui-chat |
+| `command` | `@deepseek-ai/dsh-client-ui-commands` | 22 | packages/client/ui-commands |
+| `common` | `@deepseek-ai/dsh-client-locale` | 41 | packages/client/locale |
+| `conversation` | `@deepseek-ai/dsh-client-ui-conversation` | 383 | packages/client/ui-conversation |
+| `cordis` | `@deepseek-ai/dsh-client-ui-cordis` | 51 | packages/extensions/ui-cordis |
+| `cotTranslation` | `@deepseek-ai/dsh-experimental-client-ui-cot-translation` | 32 | packages/experimental/client-ui-cot-translation |
+| `creationRecommendations` | `@deepseek-ai/dsh-client-ui-creation-recommendations` | 55 | packages/experimental/client-ui-creation-recommendations |
+| `deliverables` | `@deepseek-ai/dsh-client-ui-deliverables` | 57 | packages/client/ui-deliverables |
+| `documentHtml` | `@deepseek-ai/dsh-client-ui-sidebar-documentpreview` | 4 | packages/client/ui-sidebar-documentpreview |
+| `documentMarkdown` | `@deepseek-ai/dsh-client-ui-sidebar-documentpreview` | 4 | packages/client/ui-sidebar-documentpreview |
+| `entryCustomization` | `@deepseek-ai/dsh-client-ui-entry-customization` | 5 | packages/client/ui-entry-customization |
+| `feedback` | `@deepseek-ai/dsh-client-ui-message-feedback` | 20 | packages/client/ui-message-feedback |
+| `fileActions` | `@deepseek-ai/dsh-client-ui-file-actions` | 12 | packages/client/ui-file-actions |
+| `fileDrag` | `@deepseek-ai/dsh-client-ui-file-drag` | 1 | packages/client/ui-file-drag |
+| `forgePanel` | `@deepseek-ai/dsh-experimental-client-ui-forge` | 253 | packages/experimental/client-ui-forge |
+| `goal` | `@deepseek-ai/dsh-client-ui-goal` | 12 | packages/client/ui-goal |
+| `job` | `@deepseek-ai/dsh-client-ui-jobs` | 40 | packages/client/ui-jobs |
+| `liveshare` | `@deepseek-ai/dsh-experimental-liveshare` | 225 | packages/experimental/liveshare |
+| `messageQuotes` | `@deepseek-ai/dsh-message-quotes` | 1 | packages/session/message-quotes |
+| `model` | `@deepseek-ai/dsh-client-ui-model-selection` | 23 | packages/client/ui-model-selection |
+| `open-in-app` | `@deepseek-ai/dsh-client-ui-open-in-app` | 28 | packages/client/ui-open-in-app |
+| `plan` | `@deepseek-ai/dsh-client-ui-plan` | 16 | packages/client/ui-plan |
+| `pluginManager` | `@deepseek-ai/dsh-client-ui-plugin-manager` | 291 | packages/client/ui-plugin-manager |
+| `pluginMarket` | `@deepseek-ai/dsh-client-ui-plugin-market` | 87 | packages/client/ui-plugin-market |
+| `pluginRecommendations` | `@deepseek-ai/dsh-client-ui-plugin-recommendations` | 25 | packages/experimental/client-ui-plugin-recommendations |
+| `question` | `@deepseek-ai/dsh-client-ui-user-questions` | 31 | packages/client/ui-user-questions |
+| `reference` | `@deepseek-ai/dsh-client-ui-reference` | 15 | packages/client/ui-reference |
+| `schedule.catalog` | `@deepseek-ai/dsh-client-ui-schedule` | 16 | packages/client/ui-schedule |
+| `secretMask` | `@deepseek-ai/dsh-client-ui-secret-mask` | 2 | packages/client/ui-secret-mask |
+| `session-inspector` | `@deepseek-ai/dsh-experimental-session-inspector` | 52 | packages/experimental/session-inspector |
+| `session-log-download` | `@deepseek-ai/dsh-session-log-export` | 14 | packages/session-query/session-log-export |
+| `settings` | `@deepseek-ai/dsh-client-ui-settings-general` | 42 | packages/client/ui-settings-general |
+| `settings.account` | `@deepseek-ai/dsh-client-ui-settings-account` | 55 | packages/client/ui-settings-account |
+| `settings.agentLoop` | `@deepseek-ai/dsh-client-ui-settings-agent-loop` | 12 | packages/client/ui-settings-agent-loop |
+| `settings.agentPreset` | `@deepseek-ai/dsh-client-ui-agent-preset` | 28 | packages/client/ui-agent-preset |
+| `settings.locale` | `@deepseek-ai/dsh-client-locale` | 1 | packages/client/locale |
+| `settings.models` | `@deepseek-ai/dsh-client-ui-settings-models` | 137 | packages/client/ui-settings-models |
+| `settings.permission` | `@deepseek-ai/dsh-client-ui-permission-presets` | 12 | packages/client/ui-permission-presets |
+| `settings.pluginInventory` | `@deepseek-ai/dsh-client-ui-settings-plugin-inventory` | 37 | packages/client/ui-settings-plugin-inventory |
+| `settings.plugins` | `@deepseek-ai/dsh-client-ui-settings-plugins` | 5 | packages/client/ui-settings-plugins |
+| `settings.sessionLog` | `@deepseek-ai/dsh-client-ui-settings-session-log` | 4 | packages/client/ui-settings-session-log |
+| `settings.shell` | `@deepseek-ai/dsh-client-ui-settings-shell` | 14 | packages/client/ui-settings-shell |
+| `settings.subagent` | `@deepseek-ai/dsh-client-ui-settings-subagent` | 35 | packages/client/ui-settings-subagent |
+| `settings.theme` | `@deepseek-ai/dsh-client-ui-theme` | 25 | packages/client/ui-theme |
+| `settings.webSearch` | `@deepseek-ai/dsh-client-ui-settings-web-search` | 27 | packages/client/ui-settings-web-search |
+| `shortcuts` | `@deepseek-ai/dsh-client-ui-shortcuts` | 56 | packages/client/ui-shortcuts |
+| `shortcuts.layout` | `@deepseek-ai/dsh-client-ui-layout` | 1 | packages/client/ui-layout |
+| `sidebar` | `@deepseek-ai/dsh-client-ui-sidebar` | 8 | packages/client/ui-sidebar |
+| `sidebarBrowser` | `@deepseek-ai/dsh-client-ui-sidebar-browser` | 26 | packages/client/ui-sidebar-browser |
+| `sidebarCodePreview` | `@deepseek-ai/dsh-client-ui-sidebar-documentpreview` | 3 | packages/client/ui-sidebar-documentpreview |
+| `sidebarDocumentPreview` | `@deepseek-ai/dsh-client-ui-sidebar-documentpreview` | 22 | packages/client/ui-sidebar-documentpreview |
+| `sidebarExcel` | `@deepseek-ai/dsh-client-ui-sidebar-documentpreview` | 15 | packages/client/ui-sidebar-documentpreview |
+| `sidebarFiles` | `@deepseek-ai/dsh-client-ui-sidebar-files` | 21 | packages/client/ui-sidebar-files |
+| `sidebarImage` | `@deepseek-ai/dsh-client-ui-sidebar-documentpreview` | 5 | packages/client/ui-sidebar-documentpreview |
+| `sidebarOffice` | `@deepseek-ai/dsh-client-ui-sidebar-documentpreview` | 15 | packages/client/ui-sidebar-documentpreview |
+| `sidebarPdf` | `@deepseek-ai/dsh-client-ui-sidebar-documentpreview` | 9 | packages/client/ui-sidebar-documentpreview |
+| `sidebarRight` | `@deepseek-ai/dsh-client-ui-sidebar-right` | 38 | packages/client/ui-sidebar-right |
+| `sidebarTerminal` | `@deepseek-ai/dsh-client-ui-sidebar-terminal` | 28 | packages/client/ui-sidebar-terminal |
+| `skill` | `@deepseek-ai/dsh-client-ui-skill` | 8 | packages/client/ui-skill |
+| `slash.menu` | `@deepseek-ai/dsh-client-ui-input-trigger` | 9 | packages/client/ui-input-trigger |
+| `stats` | `@deepseek-ai/dsh-experimental-client-ui-stats` | 177 | packages/experimental/client-ui-stats |
+| `subagent` | `@deepseek-ai/dsh-client-ui-subagent` | 42 | packages/client/ui-subagent |
+| `trajectory` | `@deepseek-ai/dsh-client-ui-trajectory` | 199 | packages/client/ui-trajectory |
+| `voice-input` | `@deepseek-ai/dsh-experimental-client-ui-voice-input` | 114 | packages/experimental/client-ui-voice-input |
+| `workflowRun` | `@deepseek-ai/dsh-client-ui-workflow-run` | 18 | packages/client/ui-workflow-run |
+| `workspace` | `@deepseek-ai/dsh-client-ui-workspace` | 119 | packages/client/ui-workspace |

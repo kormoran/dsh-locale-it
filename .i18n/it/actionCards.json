@@ -1,0 +1,16 @@
+{
+  "expandBrief": "Mostra di più",
+  "collapseBrief": "Mostra meno",
+  "dismiss": "Non ora",
+  "dismissed": "Ignorata",
+  "replaced": "Sostituita",
+  "unavailable": "Questa azione non è disponibile. Controlla il plugin in Plugin.",
+  "transport": "Impossibile confermare l'esito. Riconnetti e controlla la scheda prima di riprovare.",
+  "row.title": "Scheda azione",
+  "row.preparing": "Preparazione di una scheda",
+  "row.running": "Proposta in corso",
+  "row.ok": "Proposta",
+  "row.error": "Non mostrata",
+  "row.stopped": "Interrotta",
+  "row.inspect": "Ispeziona la chiamata"
+}

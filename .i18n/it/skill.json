@@ -1,0 +1,10 @@
+{
+  "row.title": "Skill",
+  "row.running": "Caricamento della skill",
+  "row.preparing": "Preparazione al caricamento di una skill",
+  "row.failed": "Caricamento della skill non riuscito",
+  "row.stopped": "Caricamento della skill fermato",
+  "row.instructions": "Istruzioni",
+  "row.inspect": "Ispeziona",
+  "menu.userOnly": "solo utente"
+}

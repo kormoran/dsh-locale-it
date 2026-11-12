@@ -1,0 +1,36 @@
+/**
+ * Italian dictionary for the "sidebarBrowser" namespace, owned by
+ * @deepseek-ai/dsh-client-ui-sidebar-browser.
+ *
+ * 26 keys. The shipped dictionaries are typed against the Chinese
+ * key set, so this module must stay complete for the namespace: TypeScript
+ * checks every shipped language against it.
+ */
+export const it = {
+	"type.label": "Browser",
+	"guide.title": "Browser",
+	"guide.description": "Sfoglia pagine web",
+	"shortcut.noSession": "Apri prima una sessione",
+	"address.placeholder": "Inserisci un indirizzo HTTP(S)",
+	"address.changed": "URL cambiato",
+	"back": "Indietro",
+	"forward": "Avanti",
+	"reload": "Ricarica",
+	"go": "Vai",
+	"external": "Apri nel browser di sistema",
+	"sandbox.disable": "Disattiva le restrizioni della sandbox",
+	"sandbox.enable": "Ripristina le restrizioni della sandbox",
+	"sandbox.warning": "Le restrizioni della sandbox sono disattivate; la pagina può navigare l'app di primo livello e usare download, finestre modali e blocchi di input.",
+	"start": "Inserisci un indirizzo HTTP(S) per iniziare a sfogliare",
+	"loading": "Apertura…",
+	"restore.previous": "Aperto in precedenza",
+	"restore.action": "Ripristina la pagina",
+	"error.empty": "Inserisci un indirizzo.",
+	"error.invalid": "L'indirizzo non è valido o è troppo lungo.",
+	"error.protocol": "Sono supportati solo indirizzi HTTP e HTTPS; per i file locali usa l'Anteprima documenti.",
+	"error.credentials": "Gli indirizzi non possono contenere nome utente o password.",
+	"error.application-origin": "Il browser integrato non può aprire l'applicazione DSH stessa.",
+	"load.failed": "Impossibile caricare la pagina; ricarica oppure aprila nel browser di sistema.",
+	"load.failed.detail": "Caricamento della pagina non riuscito ({code}): {description}",
+	"address.unknown": "La pagina ha navigato; questo carrier non può leggerne il nuovo URL.",
+} as const
