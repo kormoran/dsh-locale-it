@@ -1,0 +1,63 @@
+{
+	"format": 1,
+	"title": {
+		"en": "Italian language pack",
+		"it": "Language pack italiano"
+	},
+	"description": {
+		"en": "Italian translations for the DeepSeek Harness web UI.",
+		"it": "Traduzioni italiane per la Web UI di DeepSeek Harness."
+	},
+	"metadata": {
+		"categories": {
+			"appearance": {
+				"title": {
+					"en": "Appearance",
+					"it": "Aspetto"
+				}
+			}
+		},
+		"labels": {},
+		"sortKeys": {}
+	},
+	"plugins": [
+		{
+			"name": "dsh-locale-it",
+			"title": {
+				"en": "Italian",
+				"it": "Italiano"
+			},
+			"description": {
+				"en": "Complete Italian translation of the web UI: 3,426 strings across 69 namespaces.",
+				"it": "Traduzione italiana completa della Web UI: 3.426 stringhe in 69 namespace."
+			},
+			"author": "Massimo Soricetti",
+			"homepage": "https://github.com/kormoran/dsh-locale-it#readme",
+			"repository": {
+				"url": "https://github.com/kormoran/dsh-locale-it"
+			},
+			"metadata": {
+				"category": "appearance",
+				"keywords": [
+					"italian",
+					"italiano",
+					"i18n",
+					"locale",
+					"translation"
+				],
+				"labels": [],
+				"sortKeys": {}
+			},
+			"versions": [
+				{
+					"version": "1.0.0",
+					"publishTimestamp": 1794479433,
+					"source": {
+						"type": "npm"
+					},
+					"engines": {}
+				}
+			]
+		}
+	]
+}
